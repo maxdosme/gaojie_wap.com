@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body{overflow-x:hidden;}
+a:hover,a:focus{text-decoration: none;}
+.light_nav,.light_nav1{height:100px!important;background:#fff;border:none;z-index:1111;}
+.light_nav .nav{padding-left: 270px;}
+.light_nav .nav li a{height:72px;line-height:72px;padding:0px 15px;font-size:18px;}
+.light_nav .nav li.active a,.light_nav .nav li.active a:hover{background:none;color:#498537;}
+.light_nav .nav li.active a{font-weight:bold;}
+.language{top:26px;right:220px;line-height:20px;color:#363533;font-size:15px;border-left:solid 1px #363533;margin-left: 40px;padding-left: 50px;}
+.language a{color:#363533;}
+a ,p,span,h1,div,p,li{font-family:arial,"微软雅黑 Regular";}
+
+/*复用样式*/
+.g-title {margin:80px 0 20px 0;}
+.cl_pd {padding: 0;}
+.box6_btn{border: 1px solid #ef2525;border-radius: 15px;width: 200px;height: 58px;display: block;font-size: 24px;line-height: 58px;padding: 0 40px;color: #ef2525;margin: 0 auto;}
+.box6_btn:hover{color: #FFFFFF;background-color: #ef2525;}
+/*复用行高2.0*/
+.pub_line20 {font-size: 16px;color: #444;line-height: 2.0;}
+.pub_line25 {font-size: 16px;color: #444;line-height: 2.5;}
+
+/*复用样式*/
+.cl_pd {padding: 0;}
+.cl_pdr {padding-right: 0;}
+.pub_2em{text-indent: 2em;}
+.mt_50 {margin-top: 50px;}
+.mb_50 {margin-bottom: 50px;}
+.red_p {color:#ea4231!important;font-size: 30px;}
+.pub_p24 {font-size: 20px;color: #666;}
+.mr_b30 {margin-bottom: 30px;}
+.mr_t20 {margin-top: 20px;}
+.mt_30 {margin-top: 30px;}
+.oh {overflow: hidden;}
+.mr_t30 {margin-top: 30px;}
+.mt_20 {margin-top: 20px;}
+#activeAll {color: #f36638;}
+.activeAll {color: #f36638!important;}
+
+/*title复用*/
+.allBg {overflow: hidden;background: url("../images/allBg.png");background-size: 100%;height: 43px;}
+.allBg h2{margin: 0 auto;line-height: 43px;font-size: 20px;color: #fff;}
+/*内页title复用*/
+.inTitle {overflow: hidden;position: relative;border-left: 3px solid #137303;margin: 20px 0;}
+.inTitle h1{font-size: 23px;margin: 0 auto;line-height: 23px;color: #137303;}
+
+
+
+
+
+/*top*/
+#top {overflow: hidden;position: fixed;top:0;height: 45px;background-color: #035c00;width: 100%;z-index: 999;}
+#top img{position: relative;display: block;top:13px;margin: 0 auto;}
+
+/*banner*/
+#myCarousel {overflow: hidden;position: relative;margin-top: 45px;height: 27vh;}
+#myCarousel img {width: 100%;}
+
+/*导航*/
+#navber {overflow: hidden;position: relative;}
+#navber .nav_boxlv{overflow: hidden;height: 100px;background-color: #09a503;border-radius: 8px;}
+#navber .nav_boxhu{overflow: hidden;height: 100px;background-color: #e5b803;border-radius: 8px;}
+#navber .nav_boxAll{margin:10px auto;}
+#navber .nav_boxAll .BoxCont{display: block;margin: 0 auto;padding: 13px 0;}
+#navber .nav_boxAll p{line-height: 2.5;font-size: 15px;color: #fff;}
+
+/*关于我们*/
+#about {overflow: hidden;position: relative;}
+#about p{line-height: 2.0;margin-top: 20px;color: #444;}
+
+/*服务项目*/
+#pageService {overflow: hidden;position: relative;margin: 10px;padding:0 12px;}
+#pageService .s_boxAll{overflow: hidden;position: relative;}
+#pageService .s_boxAll img{border: 2px solid #026e01;width: 95%;}
+#pageService  p{color:#127501;height: 30px;line-height: 30px;margin-bottom: 5px;}
+
+/*工程案例*/
+#case {overflow: hidden;position: relative;}
+#case li{list-style-type: none;}
+#case .clone{float: left;width: 180px;margin: 20px 8px;}
+#case .clone p{color:#127501;}
+
+/*回到顶部*/
+.ret {overflow: hidden;position: relative;display: block;background-color: #e5b803;border-radius: 5px;height: 45px;}
+.ret span {background: url(../images/retIcon.png);display:inline-block;height: 13px;width: 27px;margin: 0 5px;}
+.ret  p{line-height: 45px; margin-bottom: 0;font-size: 16px;color: #fff;}
+
+/*底部*/
+#footer {overflow: hidden;position: relative;background-color: #137303;color: #fff;height: 76px;}
+#footer a{color: #fff;line-height: 30px;}
+#footer p{margin-bottom: 0;}
+
+/*企业文化页*/
+#qiye {overflow: hidden;position: relative;margin-bottom: 15px;}
+
+/*安洁知识*/
+#zs {overflow:hidden;position: relative;margin-bottom: 20px;}
+#zs h2{margin: 5px auto;font-size: 18px;line-height: 25px;color:#137303;font-weight: bold;}
+#zs p{margin: 0 auto;font-size: 13px;line-height: 1.7;}
+
+
+
+
+/*联系我们页*/
+#inAbout {overflow: hidden;position: relative;margin-bottom: 20px;}
+#inAbout p{font-size: 13px;font-weight: bold;}
+#inAbout .inper{background: url(../images/per.png);display:inline-block;height: 30px;width: 28px;margin: 0 10px;position: relative;top:9px;}
+#inAbout .inpho{background: url(../images/pho.png);display:inline-block;height:33px;width:19px;margin: 0 14px;position: relative;top:10px;}
+#inAbout .inaddr{background: url(../images/addr.png);display:inline-block;height:30px;width:22px;margin: 0 12px;position: relative;top:10px;}
+
+/*服务项目页*/
+#inService {overflow: hidden;position: relative;}
+
+/*工程案例页*/
+#inCase {overflow: hidden;position: relative;}
+#inCase .c_boxAll{overflow: hidden;position: relative;border: 2px solid #026e01;}
+#inCase .c_boxAll img {width: 100%;}
+#inCase p{line-height: 40px;color: #127501;}
+
+
+
